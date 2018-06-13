@@ -12,8 +12,8 @@ import loggers as lg
 import time
 
 import matplotlib.pyplot as plt
-from IPython import display
-import pylab as pl
+# from IPython import display
+# import pylab as pl
 
 
 class User():
@@ -209,9 +209,9 @@ class Agent():
 		if iteration % 5 == 0:
 			plt.savefig("run/history/loss_{}.png".format(str(iteration).zfill(4)))
 
-		display.clear_output(wait=True)
-		display.display(pl.gcf())
-		pl.gcf().clear()
+		# display.clear_output(wait=True)
+		# display.display(pl.gcf())
+		# pl.gcf().clear()
 		time.sleep(1.0)
 
 		print('\n')
