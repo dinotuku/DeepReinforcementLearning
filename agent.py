@@ -1,5 +1,3 @@
-%matplotlib inline
-
 import numpy as np
 import random
 
@@ -11,6 +9,8 @@ import config
 import loggers as lg
 import time
 
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 # from IPython import display
 # import pylab as pl
